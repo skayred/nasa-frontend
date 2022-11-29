@@ -9,7 +9,7 @@ export const DefaultLanding = () => {
     <div>
       <Card
         title="Welcome to the implementation of the technical assignment!"
-        extra={<a href="#">See the asteroids!</a>}
+        extra={<Button type="link" onClick={() => history.push("/asteroids")}>See the asteroids!</Button>}
         style={{ width: "100%" }}
       >
         <p>This is the main page of the application</p>
