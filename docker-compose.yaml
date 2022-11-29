@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  brewone:
+    image: registry.panim.one/nasa-frontend:0.0.1
+    ports:
+    - "4080:80"

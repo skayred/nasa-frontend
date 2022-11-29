@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.layout {
+    min-height: calc(100vh - 64px);
+    overflow-y: scroll;
+}
+
+.main-content {
+    padding: 1rem;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
